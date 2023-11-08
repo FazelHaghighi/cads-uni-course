@@ -1,0 +1,24 @@
+entity with_select is
+    Port ( a : in  STD_LOGIC;
+           b : in  STD_LOGIC;
+           c : in  STD_LOGIC;
+           s : out  STD_LOGIC;
+           cout : out  STD_LOGIC);
+end with_select;
+
+architecture Behavioral of with_select is
+
+    signal tmp : STD_LOGIC_VECTOR(2 downto 0);
+begin
+    tmp <= a & b & c;
+
+    -- Use "with select" for SUM
+    with tmp select
+        s <= '1' when "001" | "010" | "100" | "111",
+             '0' when others;
+
+    -- Use "with select" for CARRY
+    with tmp select
+        cout <= '1' when "011" | "101" | "110" | "111",
+                '0' when others;
+end Behavioral;

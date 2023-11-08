@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/media/fazel/4600AC1600AC0ECD/Uni/CADS/full_adder_behavioral/case_when/case_when_isim_beh.exe" -prj "/media/fazel/4600AC1600AC0ECD/Uni/CADS/full_adder_behavioral/case_when/case_when_beh.prj" "work.case_when" 

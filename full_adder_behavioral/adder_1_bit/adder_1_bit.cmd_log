@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/home/fazel/Downloads/adder_1_bit/adder_1_bit.xst" -ofn "/home/fazel/Downloads/adder_1_bit/adder_1_bit.syr" 
+xst -intstyle ise -ifn "/home/fazel/Downloads/adder_1_bit/adder_1_bit.xst" -ofn "/home/fazel/Downloads/adder_1_bit/adder_1_bit.syr" 
+xst -intstyle ise -ifn "/home/fazel/Downloads/adder_1_bit/adder_1_bit.xst" -ofn "/home/fazel/Downloads/adder_1_bit/adder_1_bit.syr" 
+xst -intstyle ise -ifn "/home/fazel/Downloads/adder_1_bit/adder_1_bit.xst" -ofn "/home/fazel/Downloads/adder_1_bit/adder_1_bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 adder_1_bit.ngc adder_1_bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o adder_1_bit_map.ncd adder_1_bit.ngd adder_1_bit.pcf 
+par -w -intstyle ise -ol high -mt off adder_1_bit_map.ncd adder_1_bit.ncd adder_1_bit.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adder_1_bit.twx adder_1_bit.ncd -o adder_1_bit.twr adder_1_bit.pcf 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/adder_1_bit/adder_1_bit.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/adder_1_bit/adder_1_bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2 adder_1_bit.ngc adder_1_bit.ngd  
+map -intstyle ise -p xc7a100t-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o adder_1_bit_map.ncd adder_1_bit.ngd adder_1_bit.pcf 
+par -w -intstyle ise -ol high -mt off adder_1_bit_map.ncd adder_1_bit.ncd adder_1_bit.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml adder_1_bit.twx adder_1_bit.ncd -o adder_1_bit.twr adder_1_bit.pcf 

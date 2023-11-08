@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/media/fazel/4600AC1600AC0ECD/Uni/CADS/full_adder_behavioral/with_select/with_select_isim_beh.exe" -prj "/media/fazel/4600AC1600AC0ECD/Uni/CADS/full_adder_behavioral/with_select/with_select_beh.prj" "work.with_select" 
