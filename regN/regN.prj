@@ -1,0 +1,4 @@
+vhdl work "Dlatch.vhd"
+vhdl work "DFF.vhd"
+vhdl work "reg.vhd"
+vhdl work "regN.vhd"
