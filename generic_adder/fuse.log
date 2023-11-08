@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /media/fazel/4600AC1600AC0ECD/Uni/CADS/generic_adder/generic_adder_isim_beh.exe -prj /media/fazel/4600AC1600AC0ECD/Uni/CADS/generic_adder/generic_adder_beh.prj work.generic_adder 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/media/fazel/4600AC1600AC0ECD/Uni/CADS/generic_adder/with_select.vhd" into library work
+Parsing VHDL file "/media/fazel/4600AC1600AC0ECD/Uni/CADS/generic_adder/generic_adder.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83084 KB
+Fuse CPU Usage: 940 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity with_select [with_select_default]
+Compiling architecture behavioral of entity generic_adder
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable /media/fazel/4600AC1600AC0ECD/Uni/CADS/generic_adder/generic_adder_isim_beh.exe
+Fuse Memory Usage: 1173108 KB
+Fuse CPU Usage: 950 ms
+GCC CPU Usage: 150 ms

@@ -1,0 +1,2 @@
+vhdl isim_temp "with_select.vhd"
+vhdl isim_temp "generic_adder.vhd"

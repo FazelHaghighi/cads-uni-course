@@ -1,0 +1,39 @@
+entity generic_adder is
+  Generic (
+    n : integer := 4
+  );
+  Port (
+    a, b : in STD_LOGIC_VECTOR(n - 1 downto 0);
+    c : in STD_LOGIC;
+    s : out STD_LOGIC_VECTOR(n - 1 downto 0);
+    cout : out STD_LOGIC
+  );
+end entity generic_adder;
+
+architecture Behavioral of generic_adder is
+  component with_select
+    Port (
+      a, b, c : in STD_LOGIC;
+      s, cout : out STD_LOGIC
+    );
+  end component;
+
+  signal carry : STD_LOGIC_VECTOR(n downto 0);
+
+begin
+  carry(0) <= c;
+
+  generate_label: for i in 0 to n - 1 generate
+    adder: with_select
+      port map (
+        a(i),
+        b(i),
+        carry(i),
+        s(i),
+        carry(i + 1)
+      );
+  end generate;
+
+  cout <= carry(n);
+
+end Behavioral;
