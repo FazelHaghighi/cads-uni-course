@@ -1,0 +1,28 @@
+Command line:
+   generic_mux_8x1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49473
+
+Fri Nov  3 13:00:14 2023
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 185.737 Meg
+
+ Total Signals          : 60
+ Total Nets             : 243
+ Total Signal Drivers   : 7
+ Total Blocks           : 11
+ Total Primitive Blocks : 8
+ Total Processes        : 7
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 613
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 261.239 Meg
+
+Fri Nov  3 13:00:20 2023
+

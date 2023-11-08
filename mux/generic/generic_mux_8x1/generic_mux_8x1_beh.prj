@@ -1,0 +1,3 @@
+vhdl work "generic_mux_2x1.vhd"
+vhdl work "generic_mux_4x1.vhd"
+vhdl work "generic_mux_8x1.vhd"

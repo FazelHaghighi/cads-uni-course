@@ -1,0 +1,13 @@
+entity generic_mux_2x1 is
+    generic (n: integer := 4);
+    Port (
+        a, b: in STD_LOGIC_VECTOR(n - 1 downto 0);
+        s: in STD_LOGIC;
+        y: out STD_LOGIC_VECTOR(n - 1 downto 0)
+    );
+end generic_mux_2x1;
+
+architecture Behavioral of generic_mux_2x1 is
+begin
+    y <= a when s = '0' else b;
+end Behavioral;

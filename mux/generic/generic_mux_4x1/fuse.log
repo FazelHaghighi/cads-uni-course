@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/generic/generic_mux_4x1/generic_mux_4x1_isim_beh.exe -prj /media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/generic/generic_mux_4x1/generic_mux_4x1_beh.prj work.generic_mux_4x1 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/generic/generic_mux_4x1/generic_mux_2x1.vhd" into library work
+Parsing VHDL file "/media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/generic/generic_mux_4x1/generic_mux_4x1.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83080 KB
+Fuse CPU Usage: 830 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity generic_mux_2x1 [\generic_mux_2x1(16)\]
+Compiling architecture behavioral of entity generic_mux_4x1
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable /media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/generic/generic_mux_4x1/generic_mux_4x1_isim_beh.exe
+Fuse Memory Usage: 1173092 KB
+Fuse CPU Usage: 840 ms
+GCC CPU Usage: 140 ms
