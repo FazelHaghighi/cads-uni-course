@@ -8,42 +8,4 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-# isim force add /regn/data_in 00001111 -radix bin
-# isim force add /regn/data_in 00001111 -radix bin
-# isim force add /regn/clk 1 -radix bin -value 0 -radix bin -time 500 ns -repeat 1 us
-# isim force add /regn/clk 1 -radix bin -value 0 -radix bin -time 500 ns -repeat 1 us
-# isim force add /regn/en 1 -radix bin
-# isim force add /regn/en 1 -radix bin
-# isim force add /regn/reset 0 -radix bin
-# isim force add /regn/reset 0 -radix bin
-# run 1.00us
-# run 1.00us
-# run 1.00us
-# run 1.00us
-# isim force add /regn/data_in 10101010 -radix bin
-# isim force add /regn/data_in 10101010 -radix bin
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# isim force add /regn/reset 1 -radix bin
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
-# run 250ns
 # exit 0

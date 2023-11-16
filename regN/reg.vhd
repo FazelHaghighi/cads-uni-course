@@ -50,8 +50,6 @@ architecture Structural of reg is
         );
     end component;
 
-    for all : DFF use entity work.DFF (structural);
-
     signal mux_o, D_in, n_reset, s1, s2, n_en : STD_LOGIC;
 
 begin

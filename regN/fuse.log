@@ -21,6 +21,6 @@ Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 9 VHDL Units
 Built simulation executable /media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/regN/regN_isim_beh.exe
-Fuse Memory Usage: 1173184 KB
-Fuse CPU Usage: 880 ms
-GCC CPU Usage: 260 ms
+Fuse Memory Usage: 1173180 KB
+Fuse CPU Usage: 870 ms
+GCC CPU Usage: 270 ms

@@ -2,9 +2,9 @@ Command line:
    regN_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  53261
+     -socket  37633
 
-Thu Nov  9 01:20:49 2023
+Mon Nov 13 13:55:14 2023
 
 
  Elaboration Time: 0.03 sec
@@ -20,9 +20,9 @@ Thu Nov  9 01:20:49 2023
  Total Traceable Variables  : 17
  Total Scalar Nets and Variables : 516
 
- Total Simulation Time: 0.17 sec
+ Total Simulation Time: 0.03 sec
 
  Current Memory Usage: 261.239 Meg
 
-Thu Nov  9 01:26:53 2023
+Mon Nov 13 13:55:24 2023
 

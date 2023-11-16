@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2023-11-09T01:11:42</DateModified>
+  <DateModified>2023-11-13T13:54:28</DateModified>
   <ModuleName>regN</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/regN/iseconfig/regN.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/regN</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/regN/</ImplementationReportsDirectory>
   <DateInitialized>2023-11-09T01:11:42</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

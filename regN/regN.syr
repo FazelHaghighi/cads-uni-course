@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Reading design: regN.prj
@@ -182,22 +182,22 @@ Found no macro
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[4].regi/D_ff/d_12/n0005.
 WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[1].regi/D_ff/d_11/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[5].regi/D_ff/d_11/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[0].regi/D_ff/d_11/n0005.
 WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[6].regi/D_ff/d_12/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[5].regi/D_ff/d_12/n0005.
 WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[2].regi/D_ff/d_11/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[3].regi/D_ff/d_11/n0005.
 WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[1].regi/D_ff/d_12/n0005.
 WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[7].regi/D_ff/d_12/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[3].regi/D_ff/d_12/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[0].regi/D_ff/d_12/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[4].regi/D_ff/d_12/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[5].regi/D_ff/d_12/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[7].regi/D_ff/d_11/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[2].regi/D_ff/d_12/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[3].regi/D_ff/d_11/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[6].regi/D_ff/d_11/n0005.
 WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[4].regi/D_ff/d_11/n0005.
-WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[0].regi/D_ff/d_11/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[5].regi/D_ff/d_11/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[0].regi/D_ff/d_12/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[2].regi/D_ff/d_12/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[7].regi/D_ff/d_11/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[3].regi/D_ff/d_12/n0005.
+WARNING:Xst:2170 - Unit regN : the following signal(s) form a combinatorial loop: gen[6].regi/D_ff/d_11/n0005.
 
 Optimizing unit <regN> ...
 
@@ -329,13 +329,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 5.63 secs
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.26 secs
  
 --> 
 
 
-Total memory usage is 489168 kilobytes
+Total memory usage is 489176 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   16 (   0 filtered)
