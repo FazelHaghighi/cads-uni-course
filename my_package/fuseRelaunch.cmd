@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21_isim_beh.exe" -prj "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21_beh.prj" "work.mux_21" 

@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.syr" 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.syr" 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 mux_21.ngc mux_21.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o mux_21_map.ncd mux_21.ngd mux_21.pcf 
+par -w -intstyle ise -ol high -t 1 mux_21_map.ncd mux_21.ncd mux_21.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux_21.twx mux_21.ncd -o mux_21.twr mux_21.pcf 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 mux_21.ngc mux_21.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o mux_21_map.ncd mux_21.ngd mux_21.pcf 
+par -w -intstyle ise -ol high -t 1 mux_21_map.ncd mux_21.ncd mux_21.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux_21.twx mux_21.ncd -o mux_21.twr mux_21.pcf 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 mux_21.ngc mux_21.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o mux_21_map.ncd mux_21.ngd mux_21.pcf 
+par -w -intstyle ise -ol high -t 1 mux_21_map.ncd mux_21.ncd mux_21.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux_21.twx mux_21.ncd -o mux_21.twr mux_21.pcf 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 mux_21.ngc mux_21.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o mux_21_map.ncd mux_21.ngd mux_21.pcf 
+par -w -intstyle ise -ol high -t 1 mux_21_map.ncd mux_21.ncd mux_21.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux_21.twx mux_21.ncd -o mux_21.twr mux_21.pcf 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/my_package/mux_21.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 mux_21.ngc mux_21.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o mux_21_map.ncd mux_21.ngd mux_21.pcf 
+par -w -intstyle ise -ol high -t 1 mux_21_map.ncd mux_21.ncd mux_21.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux_21.twx mux_21.ncd -o mux_21.twr mux_21.pcf 
