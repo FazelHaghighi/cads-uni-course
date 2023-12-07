@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM.syr" 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM.syr" 

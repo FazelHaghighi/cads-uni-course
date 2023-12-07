@@ -1,0 +1,6 @@
+V3 3
+FL /media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM.vhd 2023/12/04.08:56:56 P.20131013
+EN work/FSM 0 FL /media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FSM/Behavioral 0 \
+      FL /media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM.vhd EN work/FSM 0
