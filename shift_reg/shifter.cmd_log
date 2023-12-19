@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shifter.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shifter.syr" 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shifter.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shifter.syr" 

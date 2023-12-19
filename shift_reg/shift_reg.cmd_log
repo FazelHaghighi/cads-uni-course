@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.syr" 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.syr" 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 shift_reg.ngc shift_reg.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o shift_reg_map.ncd shift_reg.ngd shift_reg.pcf 
+par -w -intstyle ise -ol high -t 1 shift_reg_map.ncd shift_reg.ncd shift_reg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml shift_reg.twx shift_reg.ncd -o shift_reg.twr shift_reg.pcf 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 shift_reg.ngc shift_reg.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o shift_reg_map.ncd shift_reg.ngd shift_reg.pcf 
+par -w -intstyle ise -ol high -t 1 shift_reg_map.ncd shift_reg.ncd shift_reg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml shift_reg.twx shift_reg.ncd -o shift_reg.twr shift_reg.pcf 
+xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-pq208-5 shift_reg.ngc shift_reg.ngd  
+map -intstyle ise -p xc3s50-pq208-5 -cm area -ir off -pr off -c 100 -o shift_reg_map.ncd shift_reg.ngd shift_reg.pcf 
+par -w -intstyle ise -ol high -t 1 shift_reg_map.ncd shift_reg.ncd shift_reg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml shift_reg.twx shift_reg.ncd -o shift_reg.twr shift_reg.pcf 

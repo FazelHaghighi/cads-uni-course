@@ -1,0 +1,9 @@
+V3 3
+FL /media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.vhd 2023/12/17.20:04:25 P.20131013
+EN work/shift_reg 1702830874 \
+      FL /media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shift_reg/Behavioral 1702830875 \
+      FL /media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/shift_reg.vhd \
+      EN work/shift_reg 1702830874
