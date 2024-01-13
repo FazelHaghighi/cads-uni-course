@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM_testbench_isim_beh.exe" -prj "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/FSM/FSM_testbench_beh.prj" "work.FSM_testbench" 

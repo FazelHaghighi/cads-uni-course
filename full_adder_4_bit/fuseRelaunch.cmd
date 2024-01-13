@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "/media/fazel/4600AC1600AC0ECD/Uni/CADS/full_adder_4_bit/full_adder_4_bit_isim_beh.exe" -prj "/media/fazel/4600AC1600AC0ECD/Uni/CADS/full_adder_4_bit/full_adder_4_bit_beh.prj" "work.full_adder_4_bit" 

@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "/media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/mux_4x1/mux_4x1_isim_beh.exe" -prj "/media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/mux_4x1/mux_4x1_beh.prj" "work.mux_4x1" 

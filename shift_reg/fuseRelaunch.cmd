@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/tb_shift_reg_isim_beh.exe" -prj "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/shift_reg/tb_shift_reg_beh.prj" "work.tb_shift_reg" 

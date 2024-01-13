@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/Dlatch/Dlatch_isim_beh.exe" -prj "/media/fazel/4600AC1600AC0ECD/Uni/CADS/codes/Dlatch/Dlatch_beh.prj" "work.Dlatch" 

@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/generic/generic_mux_4x1/generic_mux_4x1.xst" -ofn "/media/fazel/4600AC1600AC0ECD/Uni/CADS/mux/generic/generic_mux_4x1/generic_mux_4x1.syr" 
